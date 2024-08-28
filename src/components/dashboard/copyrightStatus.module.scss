@@ -1,0 +1,20 @@
+.border_container {
+  width: 796px;
+  height: 920px;
+  background-color: white;
+  border-radius: 14px;
+  padding: 40px 30px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #333c49;
+  margin-bottom: 24px;
+}
+
+.graph_container {
+  display: flex;
+  gap: 44px;
+}

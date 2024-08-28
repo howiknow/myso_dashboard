@@ -1,0 +1,49 @@
+.amount_total {
+  gap: 14px;
+  display: flex;
+  flex-direction: column;
+
+  .amount {
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    width: 324px;
+    height: 56px;
+    border: 1px solid #e5e8ed;
+    padding: 24px;
+    border-radius: 4px;
+
+    .amount_name {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+
+      p:nth-child(1) {
+        color: #333c49;
+        font-weight: 700;
+        line-height: 22px;
+        font-size: 14px;
+      }
+
+      p:nth-child(2) {
+        font-size: 20px;
+        color: #0097ff;
+        font-weight: bold;
+      }
+    }
+
+    p:last-child {
+      font-size: 12px;
+      color: #6d7683;
+      font-weight: 400;
+    }
+  }
+
+  .illegalAmount .amount_name p:nth-child(2) {
+    color: #ffb71d;
+  }
+
+  .unknownAmount .amount_name p:nth-child(2) {
+    color: #333c49;
+  }
+}

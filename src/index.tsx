@@ -2,6 +2,7 @@ import ReactDOM from "react-dom/client";
 import { QueryClient, QueryClientProvider } from "react-query";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Root from "./Root";
+import "./index.scss";
 import Dashboard from "./pages/dashboard";
 
 const root = ReactDOM.createRoot(
@@ -17,6 +18,7 @@ const router = createBrowserRouter([
     errorElement: <div>Not Found</div>,
     children: [
       {
+        path: "/dashboard",
         index: true,
         element: <Dashboard />,
       },

@@ -1,5 +1,5 @@
-import st from "./amount.module.scss";
-import AmountBox from "./amountBox";
+import st from "./Amount.module.scss";
+import AmountBox from "./AmountBox";
 
 const Amount = () => {
   const data = [

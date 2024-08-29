@@ -113,7 +113,7 @@ function Chart(props) {
       {
         value: 30,
       },
-      
+
       {
         value: 30,
         sliceSettings: { fill: am5.color(0xdedede) },

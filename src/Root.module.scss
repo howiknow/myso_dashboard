@@ -1,15 +1,27 @@
 section {
   display: flex;
   width: 100vw;
-  height: 100vw;
+  height: 100vh;
   overflow: hidden;
   background: #f5f6fa;
+}
 
-  .outlet_container {
+.container {
+  display: flex;
+
+  #menu_container {
+    width: 270px;
+    height: 100%;
+    box-shadow: 9px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    background-color: #0097ff;
+  }
+
+  #outlet_container {
     display: flex;
     width: calc(100vw - 290px);
     padding: 50px 30px;
     box-sizing: border-box;
     background: #f5f6fa;
+    justify-content: center;
   }
 }

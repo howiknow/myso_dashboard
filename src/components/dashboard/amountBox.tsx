@@ -1,4 +1,4 @@
-import st from "./amounBox.module.scss";
+import st from "./AmounBox.module.scss";
 
 type AmountBoxProps = {
   data: Array<{

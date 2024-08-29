@@ -3,7 +3,7 @@ import { QueryClient, QueryClientProvider } from "react-query";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Root from "./Root";
 import "./index.scss";
-import Dashboard from "./pages/dashboard";
+import Dashboard from "./pages/Dashboard";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement

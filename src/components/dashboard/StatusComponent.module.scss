@@ -1,0 +1,59 @@
+.status_container {
+  margin-top: 24px;
+  width: 305px;
+  height: 54px;
+  padding: 40px 30px;
+  border-radius: 14px;
+  align-items: center;
+  gap: 20px;
+  background-color: #fff;
+  border: 1px solid var(--E5E8ED, #e5e8ed);
+  display: flex;
+}
+
+.icon {
+  box-shadow: 0px 4px 15px 0px rgba(0, 151, 255, 0.2);
+  border-radius: 12px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.title .status-label {
+  color: var(--text-dark-grey, var(--333C49, #333c49));
+  font-size: 14px;
+}
+
+.amount_container {
+  display: flex;
+  gap: 4px;
+}
+
+.amount_container .amount {
+  color: var(--text-dark-grey, var(--333C49, #333c49));
+  font-size: 17px;
+  font-weight: 700;
+  font-family: "Open Sans";
+}
+
+.percent_container {
+  width: 34px;
+  height: 14px;
+  padding: 4px 6px;
+  display: flex;
+  align-items: center;
+  background: #e9f6ff;
+  border-radius: 14px;
+}
+
+.percent_container .percent {
+  color: var(--point-skyblue-500, var(--0097FF, #0097ff));
+  font-family: "Open Sans";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

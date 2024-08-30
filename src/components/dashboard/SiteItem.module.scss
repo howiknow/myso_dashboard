@@ -1,0 +1,31 @@
+.site_name {
+  display: flex;
+  width: 285px;
+  height: 19px;
+  padding: 10px;
+  border-radius: 10px;
+  background: #f5f6fa;
+  align-items: center;
+  margin-top: 10px;
+  justify-content: space-between;
+
+  .site_name_container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    p {
+      color: #6d7683;
+      font-family: "Open Sans";
+      font-size: 14px;
+      font-weight: 400;
+    }
+  }
+
+  .count {
+    color: #333c49;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+  }
+}

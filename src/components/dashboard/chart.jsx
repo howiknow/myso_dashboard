@@ -108,7 +108,7 @@ function Chart(props) {
     // Set data
     series1.data.setAll([
       {
-        value: 30,
+        value: 20,
       },
       {
         value: 30,

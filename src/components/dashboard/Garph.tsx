@@ -57,9 +57,9 @@ function Graph() {
         income: 30.6,
         expenses: 28.2,
         strokeSettings: {
-          stroke: chart.get("colors")?.getIndex(1) ?? am5.color(0x000000), // Provide a default color if undefined
+          stroke: chart.get("colors")?.getIndex(1) ?? am5.color(0x000000),
           strokeWidth: 3,
-          strokeDasharray: [5, 5],
+          // strokeDasharray: [5, 5],
         },
       },
       {
@@ -145,18 +145,18 @@ function Graph() {
 
     series2.data.setAll(data);
 
-    series2.bullets.push(function () {
-      return am5.Bullet.new(root, {
-        sprite: am5.Circle.new(root, {
-          strokeWidth: 3,
-          stroke: series2.get("stroke") ?? am5.color(0x000000), // Provide a default color if undefined
-          radius: 5,
-          fill: root.interfaceColors.get("background") ?? am5.color(0xffffff), // Provide a default color if undefined
-        }),
-      });
-    });
+    // series2.bullets.push(function () {
+    //   return am5.Bullet.new(root, {
+    //     sprite: am5.Circle.new(root, {
+    //       strokeWidth: 3,
+    //       stroke: series2.get("stroke") ?? am5.color(0x000000), // Provide a default color if undefined
+    //       radius: 5,
+    //       fill: root.interfaceColors.get("background") ?? am5.color(0xffffff), // Provide a default color if undefined
+    //     }),
+    //   });
+    // });
 
-    // chart.set("cursor", am5xy.XYCursor.new(root, {}));
+    chart.set("cursor", am5xy.XYCursor.new(root, {}));
 
     // Add legend
     let legend = chart.children.push(

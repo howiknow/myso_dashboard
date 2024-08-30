@@ -1,5 +1,6 @@
 import CompareBox from "components/dashboard/CompareBox";
 import CopyrightStatus from "components/dashboard/CopyrightStatus";
+import SiteStatus from "components/dashboard/SiteStatus";
 import Status from "components/dashboard/Status";
 import Title from "components/dashboard/Title";
 import st from "./Dashboard.module.scss";
@@ -12,7 +13,10 @@ const Dashboard = () => {
         <CopyrightStatus />
         <div>
           <CompareBox />
-          <Status />
+          <div className={st.site_container}>
+            <Status />
+            <SiteStatus />
+          </div>
         </div>
       </div>
     </div>

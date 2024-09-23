@@ -4,6 +4,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Root from "./Root";
 import "./index.scss";
 import Dashboard from "./pages/Dashboard";
+import DashboardDark from "./pages/DashboardDark";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -18,9 +19,14 @@ const router = createBrowserRouter([
     errorElement: <div>Not Found</div>,
     children: [
       {
-        path: "/dashboard",
+        path: "/",
         index: true,
         element: <Dashboard />,
+      },
+      {
+        path: "/darkmode",
+        index: true,
+        element: <DashboardDark />,
       },
     ],
   },

@@ -1,0 +1,33 @@
+.box_container {
+  margin-top: 14px;
+  border-radius: 4px;
+  border: 1px solid #88d0ef;
+  background: linear-gradient(
+    127deg,
+    rgba(6, 11, 40, 0.74) 28.26%,
+    rgba(10, 14, 35, 0.71) 91.2%
+  );
+
+  width: 532px;
+  height: 82px;
+  padding: 24px 24px 24px 24px;
+  box-shadow: 0px 0px 40px 0px rgba(17, 39, 233, 0.4) inset;
+
+  .title_cotainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .amount {
+      font-size: 20px;
+      font-family: "Open Sans";
+      font-weight: 800;
+    }
+  }
+
+  .platform_info {
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 400;
+  }
+}

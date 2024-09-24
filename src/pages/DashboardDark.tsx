@@ -1,6 +1,8 @@
+import AllUpdata from "components/dashboard/darkmode/AllUpdate";
 import CompareBox from "components/dashboard/darkmode/CompareBox";
 import CopyRightAmount from "components/dashboard/darkmode/CopyRightAmount";
 import CopyRightManage from "components/dashboard/darkmode/CopyRightManage";
+import IllegalSite from "components/dashboard/darkmode/IllegalSite";
 import Title from "components/dashboard/darkmode/Title";
 import st from "./DashboardDark.module.scss";
 
@@ -15,6 +17,10 @@ const DashboardDark = () => {
         </div>
         <div>
           <CopyRightManage />
+        </div>
+        <div className={st.data_container}>
+          <AllUpdata />
+          <IllegalSite />
         </div>
       </div>
     </div>

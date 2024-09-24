@@ -1,7 +1,7 @@
 .bg_container {
   width: 100vw;
   height: 100vh;
-  background-image: url(../assets/image/background.jpg); /* 경로에서 파일명 수정 */
+  background-image: url(../assets/image/background.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -12,9 +12,10 @@
 
 .box_container {
   display: flex;
+  gap: 20px;
+  margin-top: 50px;
 }
 
 .amount_container {
-  margin-top: 50px;
   margin-left: 40px;
 }

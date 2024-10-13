@@ -3,7 +3,7 @@ import { QueryClient, QueryClientProvider } from "react-query";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Root from "./Root";
 import "./index.scss";
-import Dashboard from "./pages/Dashboard";
+import Dashboard from "./pages/Dashboard2";
 import DashboardDark from "./pages/DashboardDark";
 
 const root = ReactDOM.createRoot(

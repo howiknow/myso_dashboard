@@ -3,7 +3,7 @@ import CopyrightStatus from "components/dashboard/CopyrightStatus";
 import SiteStatus from "components/dashboard/SiteStatus";
 import Status from "components/dashboard/Status";
 import Title from "components/dashboard/Title";
-import st from "./Dashboard.module.scss";
+import st from "./Dashboard2.module.scss";
 
 const Dashboard = () => {
   return (
